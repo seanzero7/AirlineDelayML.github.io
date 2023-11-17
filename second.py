@@ -80,7 +80,6 @@ df.drop(columns=['DestCityMarketID'],inplace=True)
 
 
 #FUN FACTS!!
-print(df.columns)
 
 
 #Airline with the Most Delays:
