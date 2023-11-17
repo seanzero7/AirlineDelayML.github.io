@@ -812,7 +812,7 @@ dataset. </p>
 
 <p class=MsoNormal><o:p>&nbsp;</o:p></p>
 
-<p class=MsoNormal>To portray the data more accurately, we decided to
+<p class=MsoNormal>To portray the data more accurately, we decided that we will
 standardize the data based on airline capacity. This eliminates the possibility
 of predicting that if you fly Southwest, you’re more likely to have delays just
 because that is the largest airline carrier in the world. This decision also
@@ -44588,7 +44588,14 @@ Name: DepDelayMinutes, dtype: float64
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>To summarize, our project's goal is to try and predict the likelihood that a flight will be delayed based on information about the flight. A flight delay is incredibly convoluted and based on several factors, one of which is random chance. Our goal is to combine various weakly correlated factors to make the best model possible given our data. Some examples of variables we will test and potentially include are: Departure Time, Air Time, Year, Distance, Day of Month, and Airport being flown into and out of, and maybe even holidays/high traffic times. This data will be combined with rain and snowfall to form a predictive model. Two examples of models we might use are decision tree and k-nearest neighbor.</p>
+<p>To summarize, our project's goal is to try and predict the likelihood that a flight will be delayed based on information about the flight. A flight delay is incredibly convoluted and based on several factors, one of which is random chance. Our goal is to combine various weakly correlated factors to make the best model possible given our data. Some examples of variables we will test and potentially include are: Departure Time, Air Time, Year, Distance, Day of Month, and Airport being flown into and out of, and maybe even holidays/high traffic times. This data will be combined with rain and snowfall to form a predictive model. Two examples of models we might use are decision tree and k-nearest neighbor.
+When creating and testing our models, we will standardize columns to portray the data more accurately. For example, to test the effect of airline carrier on delay, we will
+standardize the data based on airline capacity. This eliminates the possibility
+of predicting that if you fly Southwest, you’re more likely to have delays just
+because that is the largest airline carrier in the world. This decision also
+allows us to isolate and explain valid trends between airline carriers such as flight
+delay policies, qualification of staff, importance of safety, etc.
+</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
