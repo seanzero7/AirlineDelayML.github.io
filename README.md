@@ -12,6 +12,7 @@ Here's some links to where we got this data.
 
  
 https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr
+
 https://www.ncei.noaa.gov/access/search/data-search/daily-summaries?pageNum=1&startDate=2018-01-03T00:00:00&endDate=2018-01-03T23:59:59&dataTypes=AWND&dataTypes=PRCP&dataTypes=TAVG&bbox=38.030,-122.674,37.520,-122.164
 
  
